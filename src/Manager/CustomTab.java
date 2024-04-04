@@ -4,6 +4,7 @@ import Labs.Lab0.Lab0;
 import Labs.Lab1.Lab1;
 import Labs.Lab2.Lab2;
 import Labs.Lab3.Lab3;
+import Labs.Lab4.Lab4;
 import javafx.scene.control.TabPane;
 import javafx.scene.control.Tab;
 
@@ -41,6 +42,7 @@ public class CustomTab extends TabPane {
         tpTabs.getTabs().add(new Lab1("Lab 1"));
         tpTabs.getTabs().add(new Lab2("Lab 2"));
         tpTabs.getTabs().add(new Lab3("Lab 3"));
+        tpTabs.getTabs().add(new Lab4("Lab 4"));
         tpTabs.setPrefWidth(100);
 
     }

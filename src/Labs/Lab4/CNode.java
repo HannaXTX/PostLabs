@@ -8,6 +8,7 @@ public class CNode<T extends Comparable<T>> {
         this.data = data;
         this.next = next;
     }
+    
 
     public void setData(T data) {
         this.data = data;
