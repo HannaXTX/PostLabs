@@ -216,18 +216,21 @@ public class MyCursorArray<T extends Comparable<T>> {
     }
 
     public CNode<T> deleteLast(int l) {
-        int curr = l;
-        int prev = l;
+        int current = l;
+        int previous = l;
 
         while (!isNull(l)) {
-            if (cursorArray[curr].getNext() == 0) {
-                free(curr);
-                cursorArray[prev].setNext(0);
-                return cursorArray[curr];
+            if (cursorArray[current].getNext() == 0) {
+                free(current);
+                cursorArray[previous].setNext(0);
+
+                return cursorArray[current];
             }
-            prev = curr;
-            curr = cursorArray[curr].getNext();
+
+            previous = current;
+            current = cursorArray[current].getNext();
         }
+
         return null;
     }
 

@@ -1,12 +1,14 @@
 package Labs.Lab0;
 
+import Labs.Lab0.ADT.MyList;
+
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-import ADT.MyList;
+
 
 public class DataFile {
 

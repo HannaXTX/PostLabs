@@ -1,6 +1,4 @@
-package ADT;
-
-import Labs.Lab0.ADT.Listable;
+package Labs.Lab0.ADT;
 
 public class MyList<T extends Comparable<T>> implements Listable<T> {
 

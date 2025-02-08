@@ -1,6 +1,6 @@
 package Labs.Lab0;
 
-import ADT.MyList;
+import Labs.Lab0.ADT.MyList;
 import Labs.LabSetup;
 import javafx.geometry.Insets;
 import javafx.geometry.Pos;
